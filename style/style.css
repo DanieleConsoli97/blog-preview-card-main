@@ -2,7 +2,51 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: ;
 }
 body{
     background-color: #f5d04e;
+}
+.card{
+    background-color: white;
+}
+.card{
+   width: 280px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.img_card{
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+}
+.learning{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.learning button{
+    background-color: #f5d04e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.learning p{
+    margin-top: 10px;
+}
+.card_text{
+    margin-top: 15px;
+}
+.card_text p{
+    margin-top: 15px;
+
+}
+.img_avatar{
+    width: 30px;
+    display: block;
+}
+.avatar_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
 }
