@@ -2,46 +2,63 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: ;
+
+}
+@font-face {
+    font-family:"figtree";
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
 }
 body{
     background-color: #f5d04e;
+    font-family: "figtree" ;
 }
-.card{
-    background-color: white;
-}
+
 .card{
    width: 280px;
    padding: 15px;
-   border-radius: 10px;
+   border-radius: 20px; 
+   background-color: white;
+   box-shadow: 8px 8px #000000;
+   border: 1px solid #000000;
 }
 .img_card{
     width: 250px;
     display: block;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .learning{
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 0.6rem;
+    font-weight: 500;
 }
 .learning button{
     background-color: #f5d04e;
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
+    font-weight: 800;
+    font-size: 0.5rem;
 }
 .learning p{
     margin-top: 10px;
+   
 }
 .card_text{
     margin-top: 15px;
 }
-.card_text p{
+.card_text :first-child {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.card_text :last-child  {
     margin-top: 15px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 0.8rem;
 
 }
 .img_avatar{
-    width: 30px;
+    width: 20px;
     display: block;
 }
 .avatar_container{
@@ -49,4 +66,19 @@ body{
     align-items: center;
     gap: 10px;
     margin-top: 15px;
+    font-weight: 800;
+    font-size: 0.6rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.border{
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+    margin-top: 20px;
 }
